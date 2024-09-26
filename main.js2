@@ -1,0 +1,6 @@
+let clickCount = 0;
+
+novoElemento.addEventListener('click', () => {
+    clickCount++;
+    alert(`Você clicou ${clickCount} vezes!`);
+});
